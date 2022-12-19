@@ -8,11 +8,8 @@
       {
         "name": "Launch Vite DEV server",
         "request": "launch",
-        "runtimeExecutable": "npx",
-        "runtimeArgs": [
-          "vite",
-        ],
-        "type": "node",
+        "type": "node-terminal",
+        "command": "npm run dev",
         "serverReadyAction": {
           "action": "debugWithChrome",
           "pattern": "Local: http://localhost:([0-9]+)",
